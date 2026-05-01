@@ -119,19 +119,12 @@ Le **Random Forest optimisé** est le meilleur modèle avec **95.87% d'accuracy*
 
 ## Structure du repo
 
-MBAESG_[PROMOTION]_[CLASSE]_EVALUATION_DATAENGINEER_MLOPS/
-│
-├── README.md
-│
-├── notebook/
-│   └── LAB_FINAL.ipynb        # Pipeline ML complet
-│
-├── model/
-│   ├── best_model_classif.pkl # Modèle Random Forest optimisé
-│   └── scaler_c.pkl           # Scaler pour la normalisation
-│
-└── app/
-└── streamlit_app.py       # Application Streamlit
+| Fichier | Description |
+|---------|-------------|
+| `notebook/LAB_FINAL.ipynb` | Pipeline ML complet |
+| `model/best_model_classif.pkl` | Modèle Random Forest optimisé |
+| `model/scaler_c.pkl` | Scaler pour la normalisation |
+| `app/streamlit_app.py` | Application Streamlit |
 
 ---
 
